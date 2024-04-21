@@ -1,0 +1,5 @@
+PIPE_PREFIX = "│   "
+SPACE_PREFIX = "    "
+PIPE = "│"
+ELBOW = "└──"
+TEE = "├──"
