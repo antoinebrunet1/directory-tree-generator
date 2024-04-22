@@ -48,6 +48,9 @@ def handle_item(index, item, items_length, tree, prefix):
 
 
 def get_connector(index, directory_items_length):
+    if index > directory_items_length - 1:
+        raise ValueError("index needs to be at most directory_items_length - 1.")
+
     last_item_index = directory_items_length - 1
 
     if index != last_item_index:
